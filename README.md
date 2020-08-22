@@ -42,18 +42,13 @@ test acc: 0.9025787711143494
 test loss: 0.29313525557518005
 
 Classification Report:
-              precision    recall  f1-score   support
 
-         0.0       0.92      0.92      0.92       212
-         1.0       0.88      0.87      0.87       137
+![classreport](https://github.com/alexanderbeat/mod5project/blob/master/images/dropout.png)
 
-    accuracy                           0.90       349
-   macro avg       0.90      0.90      0.90       349
-weighted avg       0.90      0.90      0.90       349
 
 Confusion Matrix:
 
-![RMSprop](https://github.com/alexanderbeat/mod5project/blob/master/images/output_100_1.png)
+![dropmodel](https://github.com/alexanderbeat/mod5project/blob/master/images/output_100_1.png)
 
 Training and Validation accuracy and loss:
 
