@@ -19,9 +19,9 @@ Runs on latest version of Python, Keras, with the addition of Google Colab for f
 # Content
 The Earth dataset is organized into 2 folders (train, test) and contains subfolders for each image category (land, river Delta). There are 1,398 images (JPEG) and 2 categories. Image augmentation with generators was used to create a larger dataset of 2,232 images. 
 
-Images were obtained from Google Image searches, using Selenium to interactively scroll through the webpage and scrape them. The process is shown in the separate notebook in this repository called [selenium_image_scraper](https://github.com/alexanderbeat/mod5project/blob/master/selenium_image_scraper.ipynb).
+Images were obtained from Google Image searches, using Selenium to interactively scroll through the webpage and scrape them. The process is shown in the separate notebook in this repository called [selenium_image_scraper](https://github.com/alexanderbeat/riverdelta-satellite-image-classification/blob/master/selenium_image_scraper.ipynb).
 
-![folder structure](Screen%20Shot%202020-08-17%20at%203.14.13%20PM.png)
+![folder structure](https://github.com/alexanderbeat/riverdelta-satellite-image-classification/blob/master/images/Screen%20Shot%202020-08-17%20at%203.14.13%20PM.png)
 
 
 ## Project Phase 1
@@ -32,7 +32,7 @@ The Earth images obtained from Google are not the cleanest and contain many diff
 
 Will also plan to implement a supervised learning model into the mix as well in hopes of gaining other performance values along with a thorough grid search of hyperparameters. 
 
-![image tiles](https://github.com/alexanderbeat/mod5project/blob/master/images/output_33_0.png)
+![image tiles](https://github.com/alexanderbeat/riverdelta-satellite-image-classification/blob/master/images/output_33_0.png)
 
 ### Model Performance
 
@@ -43,16 +43,16 @@ test loss: 0.29313525557518005
 
 Classification Report:
 
-![classreport](https://github.com/alexanderbeat/mod5project/blob/master/images/dropout.png)
+![classreport](https://github.com/alexanderbeat/riverdelta-satellite-image-classification/blob/master/images/dropout.png)
 
 
 Confusion Matrix:
 
-![dropmodel](https://github.com/alexanderbeat/mod5project/blob/master/images/output_100_1.png)
+![dropmodel](https://github.com/alexanderbeat/riverdelta-satellite-image-classification/blob/master/images/output_100_1.png)
 
 Training and Validation accuracy and loss:
 
-![accloss](https://github.com/alexanderbeat/mod5project/blob/master/images/output_100_2.png)
+![accloss](https://github.com/alexanderbeat/riverdelta-satellite-image-classification/blob/master/images/output_100_2.png)
 
 
 ## Project Phase 2
@@ -61,7 +61,7 @@ From there, the next step will be to obtain the Mars images and continue trainin
 
 Notice on the images below to see what I mean about images containing artifacts, such as the text, boxes, and drawings on them. These are causing the image set to be dirty, because it was a basic scrape from a Google Image search with no control over their search algorithms. A cleaner dataset should prove to be better performing once obtained. Cleaner images will be obtained to improve model performance in the future. 
 
-<img src=https://github.com/alexanderbeat/mod5project/blob/master/images/mars2.jpg width="450"/>
+<img src=https://github.com/alexanderbeat/riverdelta-satellite-image-classification/blob/master/images/mars2.jpg width="450"/>
 
 ### Model Performance
 
@@ -72,10 +72,10 @@ Phase 2 performance details will be updated once Mars images are obtained from a
 
 This will help show you what's happening with the images after each layer of the model network and how the patterns are developed. 
 
-![png](https://github.com/alexanderbeat/mod5project/blob/master/images/output_68_1.png)
-![png](https://github.com/alexanderbeat/mod5project/blob/master/images/output_68_7.png)
-![png](https://github.com/alexanderbeat/mod5project/blob/master/images/output_68_11.png)
+![png](https://github.com/alexanderbeat/riverdelta-satellite-image-classification/blob/master/images/output_68_1.png)
+![png](https://github.com/alexanderbeat/riverdelta-satellite-image-classification/blob/master/images/output_68_7.png)
+![png](https://github.com/alexanderbeat/riverdelta-satellite-image-classification/blob/master/images/output_68_11.png)
 
 # Github Contents and Materials
-* The notebook [selenium_image_scraper](https://github.com/alexanderbeat/mod5project/blob/master/selenium_image_scraper.ipynb) has code for getting the images from Google.
-* The notebook [ALEX_BEAT_v2_1mod5project_notebook](https://github.com/alexanderbeat/mod5project/blob/master/ALEX_BEAT_v2_1mod5project_notebook.ipynb) includes all code for image processing and modeling.
+* The notebook [selenium_image_scraper](https://github.com/alexanderbeat/riverdelta-satellite-image-classification/blob/master/selenium_image_scraper.ipynb) has code for getting the images from Google.
+* The notebook [ALEX_BEAT_v2_1mod5project_notebook](https://github.com/alexanderbeat/riverdelta-satellite-image-classification/blob/master/ALEX_BEAT_v2_1mod5project_notebook.ipynb) includes all code for image processing and modeling.
