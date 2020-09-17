@@ -21,7 +21,7 @@ The Earth dataset is organized into 2 folders (train, test) and contains subfold
 
 Images were obtained from Google Image searches, using Selenium to interactively scroll through the webpage and scrape them. The process is shown in the separate notebook in this repository called [selenium_image_scraper](https://github.com/alexanderbeat/mod5project/blob/master/selenium_image_scraper.ipynb).
 
-![folder structure](https://github.com/alexanderbeat/mod5project/blob/master/images/Screen%20Shot%202020-08-17%20at%203.14.13%20PM.png)
+![folder structure](Screen%20Shot%202020-08-17%20at%203.14.13%20PM.png)
 
 
 ## Project Phase 1
